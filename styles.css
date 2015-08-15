@@ -1,6 +1,7 @@
 body {
 	font-family: 'Bitter', sans-serif;
 	color: #333;
+	margin: 0px;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Abel', sans-serif;
+
 }
 
 
@@ -25,6 +27,7 @@ h1 {
 	background: #FFCA59;
 
 }
+
 
 .stacked {
 	padding: 10px;
