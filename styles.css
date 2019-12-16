@@ -35,6 +35,7 @@ header img {
 	border: 1px solid rgb(136, 136, 136);
 	border-radius: 50%;
 	padding: none;
+	height: 40vh;
 }
 a { 
 color: #339988;
@@ -58,13 +59,14 @@ p, ul, ol {
 }
 .links h2 {
 	color: #FF5728;
-}
+	}
 .stacked {
 	padding: 50px 100px;
 }
 .contact {
 	text-align: center;
 	color: #FFF;
+
 	/*background: url(images/dark_embroidery.png);*/
 }
 .contact img {
