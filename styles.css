@@ -8,7 +8,7 @@ body {
 }
 
 html { 
-  background: linear-gradient(  hsl(18, 61%, 89%), #ffffff); 
+/*  background: linear-gradient(  hsl(18, 61%, 89%), #ffffff);*/ background: #080e3b;
   /*background: url(images/background.jpg) no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -40,11 +40,17 @@ header img {
 a { 
 color: #339988;
 }
-h1 {
-	color: #333;
-	font-size: 66px;
+h1.gradient-text {
 
+	font-size: 66px;
+/*	 // set the background color*/
+  background: linear-gradient(to right, #ff8a00 0%, #da1b60 100%);
+/*  // background color masked along the text and clip away the rest*/
+  -webkit-background-clip: text;
+/*  // make fill color to transparent so that masked background color will be shown*/
+  -webkit-text-fill-color: transparent;
 }
+
 h1, h2 {
 	/*font-family: "Abel", sans-serif;*/
 	font-family: 'Playfair Display', serif;
@@ -57,9 +63,11 @@ p, ul, ol {
 #about {
 	/*background: ;*/
 }
+
 .links h2 {
 	color: #FF5728;
-	}
+
+}
 .stacked {
 	padding: 50px 100px;
 }
@@ -101,7 +109,8 @@ ul.websites li {
 }
 
 .websites a:hover {
-	background: #666;
+	background: #080e3b;
+
 }
 
 
