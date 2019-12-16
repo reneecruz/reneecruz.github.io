@@ -1,5 +1,5 @@
 body {
-	font-family: 'Abel', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	/*font-family: 'Playfair Display', serif;*/
 
 
@@ -8,8 +8,10 @@ body {
 }
 
 html { 
-/*  background: linear-gradient(  hsl(18, 61%, 89%), #ffffff);*/ background: #080e3b;
+/*  background: linear-gradient(  hsl(18, 61%, 89%), #ffffff);*/ 
+	background: #080e3b;
   /*background: url(images/background.jpg) no-repeat center center fixed;*/
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,17 +21,12 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-  
-
-
 header {
 	text-align: center;
-	/*background: linear-gradient( hsl(18, 61%, 89%), #ffffff); 
+	/*background: linear-gradient( hsl(1, 61%, 89%), #ffffff); 
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;*/
-
-
 }
 header img {
 	border: 1px solid rgb(136, 136, 136);
@@ -55,8 +52,11 @@ h1, h2 {
 	/*font-family: "Abel", sans-serif;*/
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
+	color: #FFF;
 
 }
+
+
 p, ul, ol {
 	line-height: 1.5;
 }
