@@ -1,6 +1,6 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	/*font-family: 'Playfair Display', serif;*/
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Playfair Display', serif;
 
 
 	color: #333;
@@ -56,6 +56,12 @@ h1, h2 {
 
 }
 
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color: #666;
+	text-align: center;
+}
 
 p, ul, ol {
 	line-height: 1.5;
@@ -127,7 +133,7 @@ ul.websites li {
 		border: none;
 		display: block;
 		margin-left: auto;
-    	margin-right: auto
+    	margin-right: auto;
 	}
 
 }
