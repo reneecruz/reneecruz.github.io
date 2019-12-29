@@ -119,6 +119,10 @@ ul.websites li {
 
 }
 
+.blogging {
+	padding: 44px;
+}
+
 
 @media only screen and (min-width: 768px) {
     /* tablets and desktop */
