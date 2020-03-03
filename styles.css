@@ -66,8 +66,24 @@ h5 {
 p, ul, ol {
 	line-height: 1.5;
 }
-#about {
-	/*background: ;*/
+#about  {
+	font-family: "Abel", sans-serif;
+	font-style: normal;
+	background: white;
+	color: black;
+	text-align: center;
+}
+
+#about h1, h2 {
+	font-family: "Abel", sans-serif;
+	font-style: normal;
+	background: white;
+	color: black;
+	text-align: center;
+}
+
+#about img {
+	padding: 50px 100px;
 }
 
 .links h2 {
@@ -138,6 +154,15 @@ ul.websites li {
 		display: block;
 		margin-left: auto;
     	margin-right: auto;
+	}
+
+	#about {
+		width: 100%;
+/*		margin: 10px;
+		display: block;*/
+	/*	margin-left: auto;
+    	margin-right: auto;
+*/
 	}
 
 }
