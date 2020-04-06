@@ -70,6 +70,12 @@ h5 {
 p, ul, ol {
 	line-height: 1.5;
 }
+
+.smallshop img {
+	height: 400px;
+	width: 600px;
+}
+
 #about  {
 	font-family: "Abel", sans-serif;
 	font-style: normal;
