@@ -1,0 +1,163 @@
+body {
+  background: #c7d7d1;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+nav {
+  margin-bottom: 100px;
+  padding-top: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  border: 1px solid transparent;
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+nav a:hover,nav a:focus {
+  border: 1px solid white;
+}
+
+.header {
+  margin: 0 auto 80px;
+  max-width: 90vw;
+}
+
+.header a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: white;
+}
+
+.hero {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 80px;
+  max-width: 900px;
+}
+
+/* This is an incomplete example of how you would code a fallback for browsers that don’t support grid */
+.hero img {
+  float: left;
+  width: 40%;
+}
+
+@supports (display: grid) {
+  .hero img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 650px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 7vw 40vw 20px 60px 1fr;
+    grid-template-rows: 7vw auto 20px auto;
+    margin-left: 0;
+  }
+}
+
+.hero::after {
+  content: ' ';
+  background: gray;
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  z-index: 1;
+}
+
+.hero img {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  z-index: 10;
+}
+
+.hero-content {
+  grid-column: 5;
+  grid-row: 2 / -1;
+}
+
+.panel-intro {
+  margin-bottom: 40px;
+  margin-left: 10vw;
+  max-width: 25vw;
+}
+
+.panel {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 325px 325px 120px;
+  margin: 0 auto 80px;
+  max-width: 80vw;
+}
+
+.panel img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.panel img:nth-child(2) {
+  grid-column: auto / span 2;
+}
+
+.panel img:nth-child(3) {
+  grid-column: auto / span 2;
+  grid-row: auto / span 2;
+}
+
+img {
+  max-width: 100%;
+}
+
+.stacked {
+  padding: 50px 100px;
+}
+.contact {
+  text-align: center;
+  color: #FFF;
+
+  /*background: url(images/dark_embroidery.png);*/
+}
+.contact img {
+  width: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  border: none;
+}
+.contact img:hover {
+  opacity: 0.5;
+  background: #000;
+}
+
+.blogging {
+  padding: 44px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+    .contact img {
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    display: block;
+    margin-left: auto;
+      margin-right: auto;
+  }
