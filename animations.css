@@ -21,7 +21,7 @@ div.hero {
   transform: translateY(4rem);
 }
 #h1-second {
-  animation: 2s slide-up linear forwards;
+  animation: 2.5s slide-up linear forwards;
   animation-timing-function: ease;
   transform: translateY(6rem);
 }
