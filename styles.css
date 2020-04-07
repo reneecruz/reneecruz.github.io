@@ -73,7 +73,7 @@ h1, h2 {
 }
 
 h5 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Ek Mukta', sans-serif;
 	font-weight: lighter;
 	color: #666;
 	text-align: center;
@@ -81,6 +81,9 @@ h5 {
 
 p, ul, ol {
 	line-height: 1.5;
+	font-family: 'Ek Mukta', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
 }
 
 .smallshop img {
@@ -89,7 +92,7 @@ p, ul, ol {
 }
 
 #about  {
-	font-family: "Abel", sans-serif;
+	font-family: "Ek Mukta", sans-serif;
 	font-style: normal;
 	background: white;
 	color: black;
@@ -97,7 +100,7 @@ p, ul, ol {
 }
 
 #about h1, h2 {
-	font-family: "Abel", sans-serif;
+	font-family: "Ek Mukta", sans-serif;
 	font-style: normal;
 	background: white;
 	color: black;
@@ -225,14 +228,13 @@ ul.websites li {
 	}
 
 .smallshop img {
-		width: 200px;
+		width: auto;
 		height: 100px;
-		margin: 10px;
-	/*	border-radius: 50%;*/
+/*		margin: 10px;
+*/	/*	border-radius: 50%;*/
 		border: none;
 		display: block;
-		margin-left: auto;
-    	margin-right: auto;
+		margin: 0 auto;
 }
 
 }

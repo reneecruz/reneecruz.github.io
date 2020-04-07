@@ -1,179 +1,258 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Ren&eacutee Cruz</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <title>Renée Cruz | Creative Developer</title>
+      <meta name="description" content="Portfolio website of front-end developer and designer Renée Cruz">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link href="styles.css" rel="stylesheet" type="text/css"/>
-		<link rel="stylesheet" href="css/normalize.css" type="text/css">
-		<link rel="stylesheet" href="css/animations.css">
+      <link rel="manifest" href="site.webmanifest">
+      <link rel="apple-touch-icon" href="icon.png">
 
-		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900i" rel="stylesheet">
+      <!-- Stylesheets -->
+      <link rel="stylesheet" href="css/normalize.css" type="text/css">
+      <link rel="stylesheet" href="css/main.css" type="text/css">
+      <link rel="stylesheet" href="css/animations.css">
 
-		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>  
-		<link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-<!--favicon-->
-		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png" />
-		<link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
-		<link rel="icon" type="image/png" href="favicon-196x196.png" sizes="196x196" />
-		<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
-		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-		<link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
-		<meta name="application-name" content="&nbsp;"/>
-		<meta name="msapplication-TileColor" content="#FFFFFF" />
-		<meta name="msapplication-TileImage" content="mstile-144x144.png" />
-		<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
-		<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
-		<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
-		<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+      <!-- JQuery -->
+      <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
-	</head>
-	<body>
-		<header class="stacked">
-			<img src="images/renee_cruz_headshot.jpg"/>
-			<h1 class="gradient-text" id="h1-first">Hey! I'm Ren&eacutee.</h1>
-			<h1 class="gradient-text" id="h1-second">Full-Stack Web Developer </h1>
-			
+      <!-- Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    </head>
+    <!-- Hey there! Welcome to my website's HTML! -->
+    <body>
+      <div class="wrapper">
 
-		</header>
-		<!--<section id="about" class="stacked">
-			<h2>About Me</h2>
-			<p>Musician. Cubana. Bass is my Superpower. Also, creative education + fabbing.</p>
-		</section>
-		<section class="links stacked">
-		<h2>Websites I visit alot</h2>
-			<ul class="websites">
-				<li><a href="http://www.fabfoundation.org">Fab Foundation</a></li>
-				<li><a href="http://google.com">Google</a></li>
-				<li><a href="https://wikipedia.org">Wikipedia</a></li>
-				<li><a href="http://w3cschools.org">W3C Schools</a></li>
-			</ul>
+        <header id="top">
+          <div class="nav">
+            <ul class="menu">
+              <li class="logo"><a href="#top">RC</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="hero slide-up">
+            <h1 id="h1-first"><span>Hi, I'm Renée!</span></h1>
+            <h1 id="h1-second">I'm a full-stack developer.</h1>
+          </div>
+        </header>
 
-			<h2>My Favorite Hobbies</h2>
-			<ol>
-				<li>Programming</li>
-				<li>Reading Blogs</li>
-				<li>Playing Bass</li>
-			</ol>
-		</section>-->
+        <div id="about"></div>
+        <div class="about">
+          <p class="bio">I am a <span>jazz musician &</span><br>full-stack developer <br>based in NYC.<br><br>I specialize in engineering beautiful,<br>functional web UI and supporting<br>them with clean, elegant code.</p>
+          <img class="bio"
+          src="images/renee_cruz_headshot.jpg" width="300px" height="300px" style="border-radius: 50%" alt="Renée Cruz smiling headshot"/>
+          <div class="skills design">
+            <img src="images/design.png" alt="designer logo">
+            <h2>Front-end Developement</h2>
+            <p>I am skilled in HTML5, CSS, JavaScript and React. My work incorporates UX design standards, such as user personas, site maps, wireframes, and usability testing. <br />
+            </p>
+          </div>
+          <div class="skills develop">
+            <img src="images/development.png" alt="developer logo">
+            <h2>Back-end Development</h2>
+            <p>I work with Ruby on Rails, APIs, PostgreSQL. I focus on keeping my code clean and efficient, and I make it a habit to stay up to date on current best practices. <br />      
+            </p>
+          </div>
+        </div>
+      </div> <!-- end of first wrapper grid -->
 
-		<section id="about" class="stacked">
-			<h1>Portfolio</h1>
-			<h2><a href="https://horacle.netlify.com" target="blank">The Horacle</a> | Madlibs Astrology Horoscope Oracle 🔮</h2>
+      <div class="wrapper projects">
+        <!--  -->
 
-			<img src="https://github.com/reneecruz/horacle-app-frontend/blob/master/horacle_toggle.gif?raw=true" loading="lazy"title="Renée Cruz, The Horacle Madlibs Astrology Toggle Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Toggle Demo"/>
-			<img src="https://github.com/reneecruz/horacle-app-frontend/blob/master/horacle_lightmode.gif?raw=true" loading="lazy" title="Renée Cruz, The Horacle Madlibs Astrology Light Mode Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Light Mode Demo"/>
-			<img src="https://github.com/reneecruz/horacle-app-frontend/blob/master/horacle_darkmode.gif?raw=true" loading="lazy" title="Renée Cruz, The Horacle Madlibs Astrology Dark Mode Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Dark Mode Demo"/>
-			<img src="https://github.com/reneecruz/horacle-app-frontend/blob/master/horacle_madlibs_dark.gif?raw=true" loading="lazy" title="Renée Cruz, The Horacle Madlibs Astrology Horoscope Generator Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Horoscope Generator Demo"/>
+        <div class="wrapper skills">
+          <p></p>
+          <h1>The Horacle</h1>
+          <div class="skills">
 
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/c08Gb9X560E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <h2><a href="https://horacle.netlify.com/" target="blank">The Horacle</a> | Madlibs Astrology Oracle</h2>
+          <p>Interactive Oracle prompt co-creates a user’s future by     choosing words for fun and generating a random prediction.
+          </p>
 
-			<h1>
-				Horacle | Horoscope Oracle for Madlibs Astrology</h1>
-				<h2>Interactive Oracle prompt co-creates a user’s future by choosing words for fun and generating a random prediction.
-				</h2>
+          <ul>
+          <li>Generated random Madlib data by GET request to RESTFUL Rails API backend, used Ruby & JS for logic wordbank</li>
+          <li>Created an interactive UI using pure CSS to enable a toggle switch for the user to between light and dark mode</li>
+          <li>Implemented Fetch to query and retrieve data from external Horoscope & Astrology API to render daily horoscope</li>
+          <li>Established a link to Twitter API to publish user’s generated madlib horoscope on their individual Twitter account</li>
+          </ul>
 
-				<h2>
-					<a href="https://github.com/reneecruz/horacle-app-frontend" target="blank">Github Frontend </a>|
-					<a href="https://github.com/reneecruz/horacle-app-backend" target="blank">Github Backend  </a>|
-					<a href="https://www.youtube.com/watch?v=c08Gb9X560E&feature=youtu.be" target="blank" >Demo </a>|  
-					<a href="https://horacle.netlify.com/" target="blank">Deployed Web App</a>
+          <p>The Horacle - 
+          <a href="https://github.com/reneecruz/horacle-app-frontend" target="blank">Github Frontend </a>|
+          <a href="https://github.com/reneecruz/horacle-app-backend" target="blank">Github Backend  </a>|
+          <a href="https://www.youtube.com/watch?v=c08Gb9X560E&feature=youtu.be" target="blank" >Demo </a>|  
+          <a href="https://horacle.netlify.com/" target="blank">Deployed Web App</a>
+          </p>
+          </div>
 
-				</h2>
+          <div class="skills">
 
-				<h2>
-					<ul>
-				<li>
-		Generated random Madlib data by GET request to RESTFUL Rails API backend, used Ruby & JS for logic wordbank
-	</li>
-	<li>
-		Created an interactive UI using pure CSS to enable a toggle switch for the user to between light and dark mode
-	</li>
-	<li>
-		Implemented Fetch to query and retrieve data from external Horoscope & Astrology API to render daily horoscope
-	</li>
-	<li>
-		Established a link to Twitter API to publish user’s generated madlib horoscope on their individual Twitter account
-	</li>
-</ul>
-				
+          <iframe width="400" height="300" src="https://www.youtube.com/embed/c08Gb9X560E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
 
-</h2>
+      <div class="wrapper skills">
+        <div class="skills">
+        <h1>Small Shop</h1>
+         <h2><a href="https://smallshop.netlify.com/" target="blank">Small Shop</a> | Online Entrepreneurship </h2>
+
+          <p>Online Shop Web App for e-commerce entrepreneurs provides secure functionality to persist user’s cart and account.</p>
+
+        <ul>
+          <li>Authorized users via JSON Web Tokens and localStorage to store encrypted user information client-side for login and perisit functionality.</li>
+          <li>Implemented React JS to create reusable UI components for modularity and dynamic routing using React-Router</li>
+          <li>Utilized Redux to create a single source of truth in handling persistence of the user’s account and cart logic</li>
+          <li>Employed REST Client to query data structures from H&M Inventory API to populate items model in the backend </li>
+        </ul>
+
+         <p>Small Shop - 
+          <a href="https://github.com/reneecruz/shop-app-client" target="blank">Github Frontend </a>|
+          <a href="https://github.com/reneecruz/shop-app-api" target="blank">Github Backend  </a>|
+          <a href="https://www.youtube.com/watch?v=AvZsuDvOJX4&feature=youtu.be" target="blank">Demo </a>|
+          <a href="https://smallshop.netlify.com/"target="blank">Deployed Web App</a>
+          <p></p>
+         </div>
+
+        <div class="skills">
+         <iframe width="400" height="300" src="https://www.youtube.com/embed/AvZsuDvOJX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+        
+     
+          <div class="wrapper skills">
+            <div class="skills">
+            <h1>Doggo-Doption</h1>
+            <h2><a href="https://www.youtube.com/watch?v=WC0_BFHhyoc&feature=youtu.be">Doggo-Doption</a> | Pet Adoption Web App</h2>
+            <p>Pet adoption web app connects users to their new best friends and allows them virtual adoption in their secure account.</p>
+
+                <ul>
+                  <li>Implemented React JS and React Router to create unique URLs & UI composed of reusable components</li>
+                  <li>Utilized JSON Web Token Authentication, BCrypt and localStorage to authenticate and authorize the user</li>
+                  <li>Fetched data from Dog CEO API and incorporated Faker Gem to generate dog data to Frontend</li>
+                  <li>Built Backend API using Ruby on Rails and designed database schema using Active Record and Postgres DB</li>
+                </ul>
+
+                <p>Doggo Doption - 
+                <a href="https://github.com/reneecruz/pet-adoption-app-frontend" target="_blank">Github Frontend </a>|
+                <a href="https://github.com/reneecruz/pet-adoption-app-backend" target="_blank">Github Backend  </a>|
+                <a href="https://www.youtube.com/watch?v=c08Gb9X560E&feature=youtu.be" target="_blank" >Demo </a>|  
+                <a href="https://medium.com/@reneecruz/search-bar-in-react-js-in-six-simple-steps-4849118b2134" target="_blank">Medium Article Tech Blog</a>
+                </p>
+              </div>
+              <div class="skills">
+                <a href="https://www.youtube.com/watch?v=WC0_BFHhyoc&feature=youtu.be" target="_blank"><img class="proj-3" src="https://github.com/reneecruz/pet-adoption-app-frontend/blob/master/ezgif.com-optimize.gif?raw=true" width="400px" height="300px"loading="lazy" title="Renée Cruz, Doggo-Doption, Pet Adoption Web App Demo" alt="Renée Cruz, Doggo-Doption, Pet Adoption Web App Demo"/></a>
+              </div>
+
+            </div>
+       
+           
+            <div class="wrapper skills">
+              <div class="skills">
+              <h1>Coder Pinterest</h1>
+              <h2><a href="https://afternoon-hollows-57350.herokuapp.com/">Coder Pinterest</a> | Learn Ruby on Rails</h2>
+              <p>A Ruby on Rails Web App that provides learning resources.</p>
+              </div>
+            <div class="skills">
+              <a href="https://afternoon-hollows-57350.herokuapp.com/" target="_blank"><img class="proj-3" src="images/coder_pinterest.png" width="400px" height="300px" loading="lazy" title="Renée Cruz, The Horacle Madlibs Astrology Horoscope Generator Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Horoscope Generator Demo"/></a>
+            </div>
+            <p></p>
+          </div>
+        </div>
+    </div>
+
+
+        <div id="work" class="wrapper work">
+     
+          <h2>The Horacle | Madlibs Astrology</h2>
+
+          <div class="projects">
+            <div class="square">
+              <a href="https://horacle.netlify.com" target="_blank"><img class="proj-4" src="https://github.com/reneecruz/horacle-app-frontend/blob/master/horacle_toggle.gif?raw=true" loading="lazy"title="Renée Cruz, The Horacle Madlibs Astrology Toggle Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Toggle Demo"/></a>
+            </div>
+            <div class="square">
+              <a href="/" target="_blank"><img class="proj-1" src="https://github.com/reneecruz/horacle-app-frontend/blob/master/horacle_lightmode.gif?raw=true" loading="lazy" title="Renée Cruz, The Horacle Madlibs Astrology Light Mode Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Light Mode Demo"/></a>
+            </div>
+            <div class="square">
+              <a href="/" target="_blank"><img class="proj-2" src="https://github.com/reneecruz/horacle-app-frontend/blob/master/horacle_darkmode.gif?raw=true" loading="lazy" title="Renée Cruz, The Horacle Madlibs Astrology Dark Mode Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Dark Mode Demo"/></a>
+            </div>
+            <div class="square">
+              <a href="/" target="_blank"><img class="proj-3" src="https://github.com/reneecruz/horacle-app-frontend/blob/master/horacle_madlibs_dark.gif?raw=true" loading="lazy" title="Renée Cruz, The Horacle Madlibs Astrology Horoscope Generator Demo" alt="Renée Cruz, The Horacle Madlibs Astrology Horoscope Generator Demo"/></a>
+            </div>
+            <a id="btn" href="https://horacle.netlify.com/" target="_blank">The Horacle</a>
+          </div>
+      
+     
+          <h2>Small Shop | E-Commerce for Entrepreneurs</h2>
+
+          <div class="projects">   
+            <div class="square">
+              <img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_demo.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
+            </div>
+            <div class="square">
+              <img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_h&m_API.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
+            </div>
+            <div class="square">
+              <img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_items_index.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
+            </div>
+            <div class="square">
+              <img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_items_showpage.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
+            </div>
+            <div class="square">
+              <img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_signup.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
+            </div>
+            <div class="square">
+              <img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_login.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
+            </div>
+           </div />
+          <a id="btn" href="https://smallshop.netlify.com/" target="_blank">Small Shop</a>
+        </div>
+   
+
+
+        <div id="contact" class="contact">
+
+          <h2>Need a responsive, mobile-ready website?</h2>
+          <h2><span>Let's work together!</span></h2>
+          <a id="email" href="mailto:reneebasscruz@gmail.com" target="_blank">reneebasscruz@gmail.com</a>
+            <div class="social">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/reneecruz/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/reneecruz" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/renee.cruz/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/nee_cruz" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://medium.com/@reneecruz" target="_blank"><i class="fab fa-medium"></i></a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <ul class="footer-menu">
+          <li><a href="#top">Welcome</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>Made with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i> using CSS Grid</p>
+      </div>
 
 
 
-			<iframe width="600" height="400" src="https://www.youtube.com/embed/AvZsuDvOJX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- JavaScript: Hooray! -->
+      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+      <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+      <script src="js/plugins.js"></script>
+      <script src="js/script.js"></script>
 
-
-			<h1><a href="https://smallshop.netlify.com/" target="blank">Small Shop</a> | E-Commerce Empowerment for Entrepreneurs </h1>
-
-			
-
-			<h2>Online Shop Web App for e-commerce entrepreneurs provides secure functionality to persist user’s cart and account.</h2>
-
-				<h2>
-					<a href="https://github.com/reneecruz/shop-app-client" target="blank">Github Frontend </a>|
-					<a href="https://github.com/reneecruz/shop-app-api" target="blank">Github Backend  </a>|
-					<a href="https://www.youtube.com/watch?v=AvZsuDvOJX4&feature=youtu.be" target="blank">Demo </a>|
-					<a href="https://smallshop.netlify.com/"target="blank">Deployed Web App</a>
-				</h2>
-
-
-<h2>
-<ul>
-	<li>
-		Authorized users via JSON Web Tokens and localStorage to store encrypted user information client-side for login and perisit functionality
-	</li>
-	<li>
-		Built Backend API using Ruby on Rails and RESTular for user database, order logic, and perform CRUD actions
-	</li>
-	<li>
-		Implemented React JS to create reusable UI components for modularity and dynamic routing using React-Router
-	</li>
-	<li>
-		Utilized Redux to create a single source of truth in handling persistence of the user’s account and cart logic
-	</li>
-	<li>
-		Employed REST Client to query data structures from H&M Inventory API to populate items model in the backend  
-	</li>
-</ul>
-</h2>
-
-			<div class="smallshop">
-			<img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_demo.png?raw=true" width="400px" height="200px"loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
-			<img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_h&m_API.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
-			<img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_items_index.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
-			<img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_items_showpage.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
-			<img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_signup.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
-			<img src="https://github.com/reneecruz/shop-app-client/blob/master/smallshop_login.png?raw=true" loading="lazy"title="Renée Cruz, Small Shop Web App Demo" alt="Renée Cruz, Small Shop Web App Demo"/>
-		</div>
-
-		<h5 class="blogging">🤓 Here's my 
-			<a href="https://docs.google.com/document/d/e/2PACX-1vShA6iHWa-A4SpQvceKpIszFTB2DKmHHsYUpENw_b5IpTQlOKWj6bhUsV84-OFzv9eycQ1L2Cbpiqdg/pub" target="blank">Résumé</a> 🦄
-		</h5>
-	
-</section>
-
-		
-
-		<section class="contact stacked">
-		<!--<h2>Contact Me</h2>-->
-			<a href="https://twitter.com/nee_cruz" target="blank"><img src="images/twitter.png" alt="twitter logo"/></a>
-			<a href="https://www.linkedin.com/in/reneecruz" target="blank">
-				<img src="images/linkedin.png" alt="linkedin logo"/></a>
-			<a href="mailto:reneebasscruz@gmail.com" target="blank"><img src="images/email.png" alt="email link"></a>
-	<!-- 		<a href="https://medium.com/@renee_cruz"><img src="images/medium2.jpg"></a> -->
-	<h5 class="blogging">Blogging on <a href="https://medium.com/@reneecruz" target="blank">Medium</a></h5>
-
-	
-
-		</section>		
-	</body>
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+          window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+          ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+      </script>
+      <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
 </html>
