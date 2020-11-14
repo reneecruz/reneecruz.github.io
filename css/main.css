@@ -464,7 +464,8 @@ textarea {
         padding: 0 10px;
         font-weight: 500;
         text-decoration: none;
-        color: var(--black);
+        text-transform: uppercase;
+        color: var(--grey);
         transition: 0.4s;
           -o-transition:.4s;
           -ms-transition:.4s;
@@ -479,6 +480,7 @@ textarea {
   .footer p {
     font-size: 1em;
     padding: 0;
+    color: var(--grey);
   }
 
   /***** JS PROJECTS PAGE *****/
