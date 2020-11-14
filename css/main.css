@@ -104,6 +104,7 @@ textarea {
     --black: #000000;
     --gray: rgba(0, 0, 0, 0.1);
     --white: #ffffff;
+    --charcoal: #252525;
   }
 
   html {
@@ -271,7 +272,7 @@ textarea {
   .work {
     background: var(--gray);
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding: 10px 0 20px 0;
   }
 
@@ -436,7 +437,7 @@ textarea {
     grid-template-columns: 1fr;
     justify-items: center;
     align-content: center; */
-    background: var(--gray);
+    background: var(--charcoal);
     grid-auto-flow: row;
     margin-bottom: 0;
     text-align: center;
