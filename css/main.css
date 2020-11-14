@@ -306,6 +306,7 @@ textarea {
         top: 0;
         left: 0;
         position: absolute;
+        object-fit: cover;
       }
 
   .work #btn {
