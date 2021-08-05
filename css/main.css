@@ -805,3 +805,12 @@ textarea {
 ::-webkit-scrollbar-thumb:hover {
   background: #BE00FE; 
 }
+
+/* Font Awesome Icons */
+.fa-heart {
+ color: red;
+}
+
+.fa-coffee {
+ color: white;
+}
