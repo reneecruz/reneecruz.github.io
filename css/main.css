@@ -474,13 +474,13 @@ textarea {
       }
 
           .footer-menu a:hover {
-            color: var(--purple);
+            opacity: 0.5;
           }
 
   .footer p {
     font-size: 1em;
     padding: 0;
-    color: var(--grey);
+    color: var(--purple);
   }
 
   /***** JS PROJECTS PAGE *****/
