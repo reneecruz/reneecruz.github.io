@@ -465,7 +465,7 @@ textarea {
         font-weight: 500;
         text-decoration: none;
         text-transform: uppercase;
-        color: var(--whitesmoke);
+        color: var(--purple);
         transition: 0.4s;
           -o-transition:.4s;
           -ms-transition:.4s;
