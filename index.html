@@ -22,7 +22,22 @@
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     </head>
     
- 
+ <style type="text/css">
+
+		div.cursors div {
+			position: absolute;
+			top: 300px;
+			left: 300px;
+			width: 32px;
+			height: 32px;
+			background-color: darkmagenta;
+			border-radius: 50%;
+			z-index: 10000;
+			pointer-events: none;
+			transform: translate(-50%, -50%);
+		}
+
+	</style>
     
     <!-- Hey there! Welcome to my website's HTML! -->
     <body>
@@ -265,6 +280,62 @@
       </script>
       <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
+
+
+		<div class="cursors">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+
+	<script type="text/javascript">
+		const cursorTag = document.querySelector("div.cursors");
+		const balls = cursorTag.querySelectorAll("div");
+
+		
+		let aimX = 0;
+		let aimY = 0;
+
+
+		balls.forEach((ball, index) => {
+			let currentX = 0;
+			let currentY = 0;
+	
+			let speed = 0.3 - index * 0.015;
+
+
+			const animate = function () {
+				currentX += (aimX - currentX) * speed;
+				currentY += (aimY - currentY) * speed;
+
+				ball.style.left = currentX + "px";
+				ball.style.top = currentY + "px";
+
+				requestAnimationFrame(animate);
+
+			}
+
+			animate();
+
+		})
+
+
+		document.addEventListener("mousemove", function(event) {
+			aimX = event.pageX;
+			aimY = event.pageY;
+
+		});
+	</script>
 
     </body>
 </html>
