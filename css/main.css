@@ -798,13 +798,13 @@ textarea {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #A117F2; 
+  background: var(--yellow); 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #BE00FE; 
+  background: var(--black); 
 }
 
 /* Font Awesome Icons */
