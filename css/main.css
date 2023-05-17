@@ -798,7 +798,7 @@ textarea {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--yellow); 
+  background: #ff4106; 
   border-radius: 10px;
 }
 
