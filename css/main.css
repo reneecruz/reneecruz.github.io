@@ -185,7 +185,7 @@ textarea {
       }
 
           .menu li a:hover {
-            color: var(--yellow);
+            color: antiquewhite;
           }
 
       .menu .logo {
@@ -193,7 +193,7 @@ textarea {
         padding: 10px;
         -moz-border-radius: 100%;
         border-radius: 100%;
-        border: 3px solid var(--yellow);
+        border: 3px solid antiquewhite;
         text-align: center;
       }
 
@@ -413,7 +413,7 @@ textarea {
         }
 
         .contact .social ul li a {
-          color: var(--yellow);
+          color: antiquewhite;
           font-size: 1.8rem;
           transition: 0.4s;
             -o-transition:.4s;
