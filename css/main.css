@@ -460,6 +460,10 @@ textarea {
         list-style-type: none;
         text-decoration: none;
       }
+
+      .footer-menu li a {
+           color: antiquewhite;
+       }
       .footer-menu a {
         font-size: 1em;
         padding: 0 10px;
