@@ -271,7 +271,7 @@ textarea {
   /***** WORK AREA *****/
 
   .work {
-    background: var(--gray);
+    background: greenyellow;
     height: auto;
     margin-bottom: 0px;
     padding: 10px 0 20px 0;
